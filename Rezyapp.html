@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="RezyStyles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rezy</title>
+  <style>
+/* Style the body */
+    body{
+        font-family: Arial;
+        background-color: white;
+      }
+/* Header/Logo Title */
+    .TitleName{
+        margin: auto;
+        width: 100%;
+        padding: 90px;
+        text-align: left;
+        background: #ff4d4d;
+        color: white;
+        font-size: 30px;
+      }
+/* Page Content */
+  </style>
+</head>
+<body>
+
+  <div class="TitleName">
+    <h1>Rezy</h1>
+    <p>Your Hoban Professional booking application</p>
+  </div>
+
+  <h2>Welcome, Please login.</h2>
+  <div class="container" id="container">
+  	<div class="form-container sign-up-container">
+  		<form action="#">
+        <h1>Student Login</h1>
+
+
+    <input type="text" placeholder="Name" />
+    <input type="email" placeholder="Email" />
+    <input type="StudentID" placeholder="StudentID" />
+    <button>Login</button>
+  </form>
+</div>
+  	<div class="form-container sign-in-container">
+  		<form action="#">
+  			<h1>Hoban Sign in</h1>
+  			<input type="email" placeholder="Email" />
+  			<input type="password" placeholder="Password" />
+  			<a href="#">Forgot your password?</a>
+  			<button>Sign In</button>
+  		</form>
+  	</div>
+  	<div class="overlay-container">
+  		<div class="overlay">
+  			<div class="overlay-panel overlay-left">
+  				<h1>Hey!</h1>
+  				<p>No need to create an account. All you need to do is enter some details</p>
+  				<button class="ghost" id="signIn">Hoban Login</button>
+  			</div>
+  			<div class="overlay-panel overlay-right">
+  				<h1>Student? login here</h1>
+  				<br></br>
+  				<button class="ghost" id="signUp">Student login</button>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+  <script src="RezyStyles.js"></script>
+</body>
+</html>
