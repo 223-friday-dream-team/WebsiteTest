@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE users SYSTEM "users.dtd">
+<users>
+    <user>
+        <lastname>root</lastname>
+        <firstname>big</firstname>
+        <code>root</code>
+        <password>DREbKLT4rX3e4j+kh3AXNM0bkjw=</password>
+        <role>Administrator</role>
+    </user>
+    <user>
+        <lastname>Katter</lastname>
+        <firstname>Bob</firstname>
+        <code>b_katter</code>
+        <password>DREbKLT4rX3e4j+kh3AXNM0bkjw=</password>
+        <role>Student</role>
+    </user>
+    <user>
+        <lastname>Tracker</lastname>
+        <firstname>Sam</firstname>
+        <code>tracsam</code>
+        <password>DREbKLT4rX3e4j+kh3AXNM0bkjw=</password>
+        <role>Staff</role>
+    </user>
